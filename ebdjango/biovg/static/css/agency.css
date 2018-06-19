@@ -13,7 +13,7 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #99cc00;
 }
 
 a:hover {
@@ -21,7 +21,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #99cc00 !important;
 }
 
 h1,
@@ -31,7 +31,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Carrois Gothic',sans-serif;
 }
 
 section {
@@ -60,7 +60,7 @@ section h3.section-subheading {
 }
 
 .btn {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Carrois Gothic',sans-serif;
   font-weight: 700;
 }
 
@@ -70,8 +70,8 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #99cc00;
+  border-color: #99cc00;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -85,12 +85,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #99cc00;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #99cc00;
   text-shadow: none;
 }
 
@@ -113,12 +113,12 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #99cc00;
+  font-family: 'Carrois Gothic',sans-serif;
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #99cc00;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
@@ -132,11 +132,11 @@ img::-moz-selection {
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Carrois Gothic',sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #99cc00;
 }
 
 @media (min-width: 992px) {
@@ -173,7 +173,7 @@ header.masthead {
   text-align: center;
   color: white;
   /*background-color: black;*/
-  /*background-image: url("../img/header-bg.jpg");*/
+  background-image: url("../img/logos/head_background.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -193,15 +193,15 @@ header.masthead .intro-text .intro-lead-in {
   font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /*font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
 }
 
 header.masthead .intro-text .intro-heading {
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 50px;
-  margin-bottom: 25px;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 90px;
+  font-family: 'IBM Plex Serif', serif;
 }
 
 @media (min-width: 768px) {
@@ -217,11 +217,12 @@ header.masthead .intro-text .intro-heading {
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   header.masthead .intro-text .intro-heading {
-    font-size: 75px;
-    font-weight: 700;
-    line-height: 75px;
-    margin-bottom: 50px;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 90px;
+    font-family: 'IBM Plex Serif', serif;
+
   }
 }
 
@@ -455,7 +456,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #99cc00;
 }
 
 .timeline > li .timeline-image h4 {
@@ -626,34 +627,34 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #99cc00;
   box-shadow: none;
 }
 
 section#contact ::-webkit-input-placeholder {
   font-weight: 700;
   color: #ced4da;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Carrois Gothic',sans-serif;
 }
 
 section#contact :-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
   /* Firefox 18- */
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Carrois Gothic',sans-serif;
 }
 
 section#contact ::-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
   /* Firefox 19+ */
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Carrois Gothic',sans-serif;
 }
 
 section#contact :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Carrois Gothic',sans-serif;
 }
 
 footer {
@@ -665,7 +666,7 @@ footer span.copyright {
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Carrois Gothic',sans-serif;
 }
 
 footer ul.quicklinks {
@@ -673,7 +674,7 @@ footer ul.quicklinks {
   line-height: 40px;
   margin-bottom: 0;
   text-transform: none;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Carrois Gothic',sans-serif;
 }
 
 ul.social-buttons {
@@ -696,5 +697,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #99cc00;
 }
