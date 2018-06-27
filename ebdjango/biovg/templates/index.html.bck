@@ -1,0 +1,568 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>bio.vege</title>
+    <link rel="shortcut icon" href="{% static 'img/logos/bio.png' %}">
+    <!-- New fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&text=bio.vege" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,400" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="{% static 'vendor/font-awesome/css/font-awesome.css' %}" rel="stylesheet" type="text/css">
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/agency.css' %}" rel="stylesheet">
+    <!-- Hotjar -->
+    <!-- Hotjar Tracking Code for http://django-env.uvzeshzmdg.eu-central-1.elasticb -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:923957,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          
+          <i class="fa fa-bars"> - Menú</i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Emprendimiento</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portafolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Acerca De</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">Equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-heading">bio.vege</div>
+          <a class=" btn_icon-primary js-scroll-trigger" href="#services"></a>
+        </div>
+        <div>
+          <div class="intro-line"></div>
+          <div class="intro-line-text text-uppercase">Bio-ingeniería, tecnología, agronomía</div>
+          <div class="intro-line"></div>
+        </div>
+        <div class="intro-line-pad" >
+          <a class=" btn_bio btn_bio-xl btn_bio-primary js-scroll-trigger text-uppercase" href="#services">Leer más</a>
+        </div>
+        
+      </div>
+    </header>
+
+    <!-- Services -->
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Emprendimiento</h2>
+            <h3 class="section-subheading text-muted">Comunidades afroecuatorianas productoras de coco encofitado (cocadas) cuyo compromiso con el cuidado del ambiente hace que la utilización de los residuos del coco, les permita conservar las riveras de los ríos y el manglar fuente de vida y sustento diario de la comunidad.</h3>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <a class="organic"></a>
+            <h4 class="service-heading">Siembra</h4>
+            <p class="text-muted">Genial para jardinería orgánica.</p>
+          </div>
+          <div class="col-md-4">
+            <a class="biodegradable"></a>
+            <h4 class="service-heading">Transporta</h4>
+            <p class="text-muted">Transplante de semillas.</p>
+          </div>
+          <div class="col-md-4">
+            <a class="alternativ"></a>
+            <h4 class="service-heading">Transplanta</h4>
+            <p class="text-muted">Amigable con el ambiente.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="bg-light" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Portafolio</h2>
+            <p` class="section-subheading text-muted">Utilizando los desechos de coco como base, nuestra empresa ha desarrollado una serie de productos de alta eficiencia para toda aplicación en jardinería, decoración de interiores, semilleros, etc.
+            </p>
+             <div class="intro-line-pad" >
+              <a href="https://online.flippingbook.com/view/357249/" class="fbo-embed" data-fbo-id="357249" data-fbo-lightbox="yes" data-fbo-width="350px" data-fbo-height="288px" data-fbo-version="1" style="max-width: 100%">Descargar Catálogo</a><script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=357249"></script>
+            </div> 
+          </div>
+
+        </div>
+       <!--  <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="plus"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="{% static 'img/portfolio/1_t.jpg' %}" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Maceta de Fibra de Coco</h4>
+              <p class="text-muted">100% naturales.</p>
+              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">Leer más..</a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="plus"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="{% static 'img/portfolio/2_t.jpg' %}" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Jardineras</h4>
+              <p class="text-muted">Tejidos sustanciales de la cáscara del coco.</p>
+              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">Leer más..</a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="plus"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="{% static 'img/portfolio/3_t.jpg' %}" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Maceta Decorativa</h4>
+              <p class="text-muted">Envase y oxigenación.</p>
+              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">Leer más..</a>
+            </div>
+          </div>
+          
+        </div> -->
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Acerca de </h2>
+            <h3 class="section-subheading text-muted">Fundada como BIOvege, impulsa una tecnología innovadora de aprovechamiento de agro
+residuos de coco en el diseño de artículos para jardinería, cultivadores, silvicultores y otros
+profesionales dedicados a la propagación vegetal ofertando soluciones sustentables. Cada una
+está diseñada en función de las necesidades para aumentar la eficiencia y la productividad
+vegetal de plantas ornamentales.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="{% static 'img/about/1.jpg' %}" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2016</h4>
+                    <h4 class="subheading">Nuestros inicios</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Fundada como BIOvege, impulsa una tecnología innovadora de aprovechamiento de agro
+residuos de coco en el diseño de artículos para jardinería, cultivadores, silvicultores y otros
+profesionales dedicados a la propagación vegetal ofertando soluciones sustentables. Cada una
+está diseñada en función de las necesidades para aumentar la eficiencia y la productividad
+vegetal de plantas ornamentales.!</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="{% static 'img/about/2.jpg' %}" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2017</h4>
+                    <h4 class="subheading">Economía del Bien Común</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">A mediados de 2017 con la intención de propiciar la integración de esfuerzos al nivel local, en
+función de brindar alternativas y conocimientos para lograr la protección y conservación de la
+biodiversidad y el manejo sostenible de los recursos naturales de las zonas costeras del
+ecosistema, se plantea que siendo la zona costera el lugar donde se presentan actualmente los
+cambios más intensos tanto naturales como de desarrollo de actividades humanas, y por lo
+tanto, es el sitio de la tierra con mayor vulnerabilidad ante las variaciones ambientales. Como
+una alternativa el uso y aprovechamiento de la estopa de coco en productos de jardinería.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="{% static 'img/about/3.jpg' %}" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Diciembre 2017</h4>
+                    <h4 class="subheading">Economía Social y Solidaria</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Modelos de negocio inclusivos, sociales y solidarios!</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="{% static 'img/about/4.jpg' %}" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2018</h4>
+                    <h4 class="subheading">Bio-ingeniería Aplicada</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Nuestros productos tienen un impacto ambiental positivo al promover el uso y aprovechamiento de residuos agrícolas, benéficos en el suelo, desarrollo de raíces y salud general en las plantas. Estas ventajas reducen drásticamente la cantidad de productos químicos y fertilizantes habitualmente utilizados.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>Se parte 
+                    <br>de Nuestra
+                    <br>Historia!</h4>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section class="bg-light" id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Nuestro Equipo</h2>
+            <h3 class="section-subheading text-muted">Bioingeniería</h3>
+          </div>
+        </div>
+        <div class="row">
+           <div class="col-sm-4">
+           
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="{% static 'img/team/7.jpg' %}" alt="">
+              <h4>Vilma Guzmán</h4>
+              <p class="text-muted">CEO</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="social_t"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="social_f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="social_in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <p class="large text-muted">Buscas innovación? Estamos atentos a tus necesidades.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Clients -->
+    <!-- <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="{% static 'img/logos/envato.jpg' %}" alt="">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="{% static 'img/logos/designmodo.jpg' %}" alt="">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="{% static 'img/logos/themeforest.jpg' %}" alt="">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="{% static 'img/logos/creative-market.jpg' %}" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Contactános</h2>
+            <h3 class="section-subheading text-muted">Contacto directo.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <form id="contactForm" name="sentMessage" novalidate="novalidate">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input class="form-control" id="name" type="text" placeholder="Su Nombre *" required="required" data-validation-required-message="Por favor ingrese su nombre.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="email" type="email" placeholder="Su Email *" required="required" data-validation-required-message="Por favor ingrese su correo electrónico.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="phone" type="tel" placeholder="Su Teléfono *" required="required" data-validation-required-message="Por favor ingrese su numero telefónico.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <textarea class="form-control" id="message" placeholder="Su Mensaje *" required="required" data-validation-required-message="Su mensaje."></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                  <div id="success"></div>
+                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Enviar Mensaje</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; bio.vege 2018</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="social_t"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="social_f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="social_in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <a href="#">Política de Privacidad</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Términos de Uso</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Maceta</h2>
+                  <p class="item-intro text-muted">Las macetas de fibra de coco 100% naturales están bien adaptadas para el material vegetal de arraigo que necesita oxigenación.</p>
+                  <img class="img-fluid d-block mx-auto" src="{% static 'img/portfolio/1_f.jpg' %}" alt="">
+                  <p>Proporcionan un medio de cultivo bien aireado. Este tipo de maceta emplea el principio de envase y medio decorativo en uno, viene bajo la forma de cilindro comprimido degradable recubierto de caucho natural. Esto significa que conseguirá ventajas logísticas y del almacenamiento que con el resto de los sistemas de propagación de plantas. Nuestro control de calidad riguroso garantiza que las propiedades físicas y químicas del coco utilizado para la elaboración provea condiciones correctas para su crecimiento y desarrollo vegetativo.
+
+El modelo de maceta es utilizado por muchos cultivadores de suculentas, orquideas y otros profesionales implicados en el crecimiento vegetal y se ha convertido en una opción preferida para el propagador moderno de plantas. Las macetas están disponibles en diversos tamaños y modelos de acuerdo a las necesidades.</p>
+                  <ul class="list-inline">
+                    <li>Tipo: Fibra de Coco</li>
+                    <li>Formato: Redonda Prensada</li>
+                    <li>Otras Características: Marron, biodegradable, un solo uso.</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Jardineras</h2>
+                  <p class="item-intro text-muted">Fabricados de los tejidos sustanciales de la cáscara del coco, le ofrece un producto renovable, respetuoso con el medio ambiente.</p>
+                  <img class="img-fluid d-block mx-auto" src="{% static 'img/portfolio/2_f.jpg' %}" alt="">
+                  <p>Estas jardineras pueden ser transportadas, transplantadas sin residuos! Es una opción eficiente para el uso en jardinería y decoración, para cualquier tipo de planta. 
+Para terminar su sistema es un complemento perfecto como macetero colgante de decoración.
+Disponible también para ser utilizado como medios para una amplia gama de plantas de lecho.
+</p>
+                  <ul class="list-inline">
+                    <li>Tipo: Fibra de Coco</li>
+                    <li>Formato: Cuadrada Cocida</li>
+                    <li>Otras Características: Marron, biodegradable, un solo uso.</li>
+                  </ul>
+                  <img class="img-fluid d-block mx-auto" src="{% static 'img/portfolio/2_1_f.jpg' %}" alt="">
+                  <p>Estas jardineras pueden ser transportadas, transplantadas sin residuos!</p>
+                  <ul class="list-inline">
+                    <li>Tipo: Fibra de Coco</li>
+                    <li>Formato: Cuadrada Cocida</li>
+                    <li>Otras Características: Marron, biodegradable, un solo uso.</li>
+                  </ul>
+
+
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Macetas Decorativas</h2>
+                  <p class="item-intro text-muted">Pequeñas jardineras.</p>
+                  <img class="img-fluid d-block mx-auto" src="{% static 'img/portfolio/3_f.jpg' %}" alt="">
+                  <p>Utilice estos productos de alta calidad como reemplazo de maceteros plásticos. Para los paisajistas y los jardineros, el establecimiento de este macetero ahorra tiempo y el trabajo cada vez.
+</p>
+                  <ul class="list-inline">
+                    <li>Tipo: Fibra de Coco</li>
+                    <li>Formato: Cuadrada Cocida</li>
+                    <li>Otras Características: Marron, biodegradable, un solo uso.</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="{% static 'js/jqBootstrapValidation.js' %}"></script>
+    <script src="{% static 'js/contact_me.js' %}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{% static 'js/agency.min.js' %}"></script>
+
+  </body>
+
+</html>
