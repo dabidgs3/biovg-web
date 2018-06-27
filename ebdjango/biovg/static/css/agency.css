@@ -374,10 +374,15 @@ header.masthead .intro-line-text {
   z-index: 2;
 }
 
+.pdfobject-container { height: 517px;}
+.pdfobject { border: 1px solid #666; }
+
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
+  .pdfobject-container { height: 517px;}
+  .pdfobject { border: 1px solid #666; }
 }
 
 .portfolio-modal {
