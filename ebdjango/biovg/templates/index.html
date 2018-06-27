@@ -32,6 +32,8 @@
             a.appendChild(r);
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
+    <!-- insert just before the closing body tag </body> -->
+    <script src="{% static 'js/pdfobject.min.js' %}"></script>
   </head>
 
   <body id="page-top">
@@ -122,9 +124,7 @@
             <h2 class="section-heading text-uppercase">Portafolio</h2>
             <p` class="section-subheading text-muted">Utilizando los desechos de coco como base, nuestra empresa ha desarrollado una serie de productos de alta eficiencia para toda aplicación en jardinería, decoración de interiores, semilleros, etc.
             </p>
-             <div class="intro-line-pad" >
-              <a href="https://online.flippingbook.com/view/357249/" class="fbo-embed" data-fbo-id="357249" data-fbo-lightbox="yes" data-fbo-width="350px" data-fbo-height="288px" data-fbo-version="1" style="max-width: 100%">Descargar Catálogo</a><script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=357249"></script>
-            </div> 
+            <div id="catalogo" ></div> 
           </div>
         </div>
       </div>
@@ -368,7 +368,12 @@ una alternativa el uso y aprovechamiento de la estopa de coco en productos de ja
 
     <!-- Custom scripts for this template -->
     <script src="{% static 'js/agency.min.js' %}"></script>
-
+     <script>
+      var options = {
+         pdfOpenParams: { scrollbar: '1', toolbar: '1', statusbar: '1', messages: '1', navpanes: '1' }
+      };
+      PDFObject.embed("../static/pdf/catalogo.pdf","#catalogo");
+    </script>
   </body>
 
 </html>
