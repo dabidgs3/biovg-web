@@ -72,18 +72,19 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-heading">bio.vege</div>
+        {%for h in header%}
+          <div class="intro-heading">{{h.title}}</div>
           <a class=" btn_icon-primary js-scroll-trigger" href="#services"></a>
         </div>
         <div>
           <div class="intro-line"></div>
-          <div class="intro-line-text text-uppercase">Bio-ingeniería, tecnología, agronomía</div>
+          <div class="intro-line-text text-uppercase">{{h.description}}</div>
           <div class="intro-line"></div>
         </div>
         <div class="intro-line-pad" >
-          <a class=" btn_bio btn_bio-xl btn_bio-primary js-scroll-trigger text-uppercase" href="#services">Leer más</a>
+          <a class=" btn_bio btn_bio-xl btn_bio-primary js-scroll-trigger text-uppercase" href="#services">{{h.button}}</a>
         </div>
-        
+        {%endfor%}
       </div>
     </header>
 
@@ -242,7 +243,7 @@ una alternativa el uso y aprovechamiento de la estopa de coco en productos de ja
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="{% static 'img/team/7.jpg' %}" alt="">
               <h4>Vilma Guzmán</h4>
-              <p class="text-muted">CEO</p>
+              <p class="text-muted">+593 99 519 2657</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
